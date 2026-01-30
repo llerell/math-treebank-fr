@@ -1,0 +1,8 @@
+# sent_id = Soutenance__1
+# text = Le chat mange la souris.
+1	Le	le	DET	_	_	2	det	_	_
+2	chat	chat	NOUN	_	_	3	nsubj	_	_
+3	mange	manger	VERB	_	_	0	root	_	_
+4	la	le	DET	_	_	5	det	_	_
+5	souris.	souris	NOUN	_	_	3	obj	_	_
+

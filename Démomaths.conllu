@@ -1,0 +1,14 @@
+# sent_id = Démomaths__2
+# text = Montrer que si $n^2$ est pair alors $n$ est pair.
+1	Montrer	montrer	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
+2	que	que	SCONJ	_	_	10	mark	_	_
+3	si	si	SCONJ	_	_	6	mark	_	_
+4	$n^2$	$n^2$	X	_	_	6	nsubj	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	pair	pair	ADJ	_	Gender=Masc|Number=Sing	10	advcl	_	_
+7	alors	alors	SCONJ	_	_	10	mark	_	_
+8	$n$	$n$	X	_	_	10	nsubj	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	pair	pair	ADJ	_	Gender=Masc|Number=Sing	1	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+

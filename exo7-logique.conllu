@@ -1,0 +1,46 @@
+# sent_id = exo7-logique__1
+# text = Il est important de avoir un langage rigoureux.
+# tags = DONE
+1	Il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	important	important	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	avoir	avoir	VERB	_	VerbForm=Inf	3	csubj	_	Subject=Generic
+6	un	un	DET	_	Gender=Masc|Number=Sing	7	det	_	_
+7	langage	langage	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	rigoureux	rigoureux	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = exo7-logique__2
+# text = La langue française est souvent ambigüe.
+# tags = DONE
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	langue	langue	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	française	français	NOUN	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	6	cop	_	_
+5	souvent	souvent	ADV	_	_	6	advmod	_	_
+6	ambigüe	ambigüe	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = exo7-logique__3_split2
+# text = à le restaurant fromage ou dessert signifie l'un ou l'autre mais pas les deux.
+# tags = DONE
+1-2	au	_	_	_	_	_	_	_	_
+1	à	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	_	3	det	_	_
+3	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
+4	fromage	fromage	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	ou	ou	CCONJ	_	_	6	cc	_	_
+6	dessert	dessert	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
+7	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	l'	le	DET	_	Gender=Masc|Number=Sing	9	det	_	SpaceAfter=No
+9	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	obj	_	_
+10	ou	ou	CCONJ	_	_	12	cc	_	_
+11	l'	l'	DET	_	_	12	det	_	SpaceAfter=No
+12	autre	autre	PRON	_	_	9	conj	_	_
+13	mais	mais	CCONJ	_	_	16	cc	_	_
+14	pas	pas	ADV	_	Polarity=Neg	16	advmod	_	_
+15	les	les	DET	_	Gender=Masc|Number=Plur	16	det	_	_
+16	deux	deux	NUM	_	Number=Plur	9	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	7	punct	_	_
+
